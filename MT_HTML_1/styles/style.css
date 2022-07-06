@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: url('../images/10816.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: helvetica;
+    height: 100vh;
+}
+
+nav {
+    background-color: rgba(42, 67, 150, 0.212);
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+    float: right;
+}
+
+.menu .lista {
+    display: inline-block;
+}
+
+.lista-r {
+    float: right;
+}
+
+.lista a:hover {
+    background-color: rgb(117, 0, 252);
+    float: right;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid blueviolet;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(17, 30, 75, 0.9);
+}
+
+label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#textarea {
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(42, 67, 150);
+    color: white;
+}
+
+button[type="submit"] {
+    background: rgb(42, 67, 150);
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgba(42, 67, 150, 0.9);
+}
+
+.formulario{
+    background: rgba(42, 67, 150, 0.9);
+    width: 950px;
+    height: 500px;
+    margin: auto;
+    padding: 50px;
+    text-align: justify;
+    border-radius: 5%;
+    margin-top: 90px;
+}
+.t{
+    display: inline-block;
+    
+}
+
+.p{
+    display: inline-block;
+}
+
+.o{
+    margin-left: 9%;
+}
+
+input.f{
+    width: 99%;
+}
+
+.r{
+    float: right;
+    margin-right: 20%;
+}
+
+input.x{
+    width: 166%;
+}
+
+input.z{
+    width: 160%;
+}
+
+.but{
+    text-align: center;
+    margin-top: 10px;
+}
+
+input.k{
+    width: 130%;
+}
+
+input.w{
+    width: 130%;
+}
+
+input.e{
+    width: 130%;
+}
